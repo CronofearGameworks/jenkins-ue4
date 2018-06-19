@@ -18,7 +18,7 @@ Modified by [Kevin Yabar](https://cronofear.com) for [Cronofear Softworks](https
  - How automated tests should look https://www.youtube.com/watch?v=ivLFP2eApto
  - How to make functional automated tests in UE4: https://www.youtube.com/watch?v=f4LpDXjFgVQ
  - How to make better automated tests (high level scripting) in UE4: http://forum.skookumscript.com/t/about-automated-tests-using-sk/1510
- - How to connect the builds from Jenkins to the releases manager in Visual Studio Team Services: https://www.youtube.com/watch?v=rCZ5ICkwarQ
+ - How to connect the builds from Jenkins to the releases manager in Visual Studio Team Services (upload .zip files and i think, log results, to VSTS): https://www.youtube.com/watch?v=rCZ5ICkwarQ
  - How to generate custom poll scripts for Jenkins: https://crontab.guru/
  
 ## What's the goal of this
