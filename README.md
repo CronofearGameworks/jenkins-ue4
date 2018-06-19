@@ -32,6 +32,8 @@ The point of using Jenking to automate your builds (and your tests) is to give y
 
 Also, if you're developing a project that needs continous releases (MMORPG, FreeToPlay, etc) then this system is perfect for you.
 
+The nice thing about all this is that once you've set everything up. The builds and tests will run automatically, potentially saving you and your team lots of hours! 
+
 ---
 
 ### Prerequisites
