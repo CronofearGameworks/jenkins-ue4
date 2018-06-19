@@ -1,1 +1,1 @@
-"C:\Program Files (x86)\MSBuild\14.0\Bin\MSBuild.exe" "C:\Source\PROJECT_NAME\PROJECT_NAME.sln" /t:build /p:Platform=Win64;verbosity=diagnostic
+"C:\Program Files\Epic Games\UE_4.19\Engine\Build\BatchFiles\Build.bat" YOURPROJECTNAMEEditor Win64 development "C:\YOURJENKINSREPOLOCATION\YOURPROJECTNAME.uproject" -waitmutex
