@@ -44,8 +44,8 @@ For giving you an example. My setup is like this:
 Note: This is not the ideal setup, Jenkins should be running on a different computer (or a hosted server in the cloud).
 
 - I've created a git repo in VSTS named Project that includes a .gitignore file for UE4 projects (you can select one in VSTS).
-- I'm using a git Client to clone my repo to C:/_MyGameName/ so git creates a Project/ directory inside /_MyGameName/
-- I'm creating a UE4 c++ project named "Project" and i'm placing the files inside C:/_MyGameName/Project/ This is my local repo, where i can work and commit my changes to VSTS.
+- I've used a git Client to clone my repo to C:/_MyGameName/ so git creates a Project/ directory inside /_MyGameName/
+- I've created a UE4 c++ project named "Project" and i'm placing the files inside C:/_MyGameName/Project/ This is my local repo, where i can work and commit my changes to VSTS.
 - I've created a /Jenkins/ folder inside C:/_MyGameName/ , this folder has the following structure:
   - C:/_MyGameName/Jenkins/Builds/     This is where the scripts will create the build and the .zip file of the build.
   - C:/_MyGameName/Jenkins/Project/    This is where Jenkins will download the master repo from my VSTS git repo.
