@@ -17,7 +17,7 @@ Modified by [Kevin Yabar](https://cronofear.com) for [Cronofear Softworks](https
 
  - How automated tests should look https://www.youtube.com/watch?v=ivLFP2eApto
  - How to make functional automated tests in UE4: https://www.youtube.com/watch?v=f4LpDXjFgVQ you can also use C++, but UE4 tests in C++ is awful (no hotreload support).
- - How to make better automated tests (high level scripting) in UE4: http://forum.skookumscript.com/t/about-automated-tests-using-sk/1510 This uses a plugin for using SkookumScript programming language in UE4. This tools should be more used accross the community IMO.
+ - How to make better automated tests (high level scripting) in UE4: http://forum.skookumscript.com/t/about-automated-tests-using-sk/1510 This uses a plugin for using SkookumScript programming language in UE4. This language is really good for gameplay programming too. Check why this tool is awesome: http://error454.com/2017/03/09/death/tick
  - How to connect the builds from Jenkins to the releases manager in Visual Studio Team Services (upload .zip files and i think, log results, to VSTS): https://www.youtube.com/watch?v=rCZ5ICkwarQ
  - How to generate custom poll scripts for Jenkins: https://crontab.guru/
  - Sometimes, after Jenkins build your projecs, for some reason if you try to generate files in any UE4 project. (Right click,  Generate VS File) there will appear an error saying that you don't have permissions. Also, if you open a .sln project and try to build a UE4 project, there will appear the same error. It's annoying and i didn't found a perfect solution. But you can do the following to solve this problem:
