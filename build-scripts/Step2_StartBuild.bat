@@ -1,0 +1,1 @@
+"C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\UnrealBuildTool.exe" -projectfiles -project="C:\ProjectName\_JenkinsCICD\Project\Project.uproject" -game -rocket -progress

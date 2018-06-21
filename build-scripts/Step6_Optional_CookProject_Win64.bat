@@ -1,0 +1,1 @@
+"C:\Program Files\Epic Games\UE_4.19\Engine\Build\BatchFiles\RunUAT.bat" BuildCookRun -project="C:\ProjectName\_JenkinsCICD\Project\Project.uproject" -noP4 -platform=Win64 -clientconfig=Development -cook -allmaps -NoCompile -stage -pak -archive -archivedirectory="C:\ProjectName\_JenkinsCICD\Builds"

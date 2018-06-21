@@ -1,0 +1,2 @@
+"C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\Win64\UE4Editor.exe" "C:\ProjectName\_JenkinsCICD\Project\Project.uproject" -ExecCmds="Automation RunTests Functional Tests" -testexit="Automation Test Queue Empty" -unattended -nopause -log=autolog.txt -Windowed -ResX=1920 -ResY=1080 -Game -silent -nologtimes
+type "C:\ProjectName\_JenkinsCICD\Project\Saved\Logs\autolog.txt"
