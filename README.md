@@ -7,7 +7,7 @@ This fork is modified mainly in these aspects:
 - **Step3_CompileScripts_Win64.bat**: Now it uses the Unreal Batch Builder instead of MSBuild.exe from Visual Studio.
 - **Step4_RunTests.bat**: Script for running functional tests using the Unreal Automation System. Go to "considerations" section for extra arguments (i.e. server/client arguments).
 - **RunJenkinsAsDesktopMode.bat**: Script that needs to be placed in ```%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup``` Runs Jenkins in desktop mode (default mode is as a service) so it can interact with UE4Editor.exe. Needed for running the tests.
-- **/LogParsers/**: Include 3 LogParsers files (compilation log parser, test log parser and build log parser). Used with the Log Parser Plugin in Jenkins for highlighting/parsing errors, warnings and relevant info. These logs are optional except for the "test log parser" which is needed for determining if a tests failed. The configuration of this files will determine when a tests fails, succeeds or is marked as unstable.
+- **/LogParsers/**: Include 3 LogParsers files (compilation log parser, test log parser and build log parser). Used with the Log Parser Plugin in Jenkins for highlighting/parsing errors, warnings and relevant info. These logs are optional except for the "test log parser" which is needed for determining if a tests failed. The configuration of these files will determine when a tests fails, succeeds or is marked as unstable.
 
 Created by [Zack Devine](https://zdevine.me) for [Skymap Games](https://skymapgames.com).
 
