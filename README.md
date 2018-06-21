@@ -87,9 +87,9 @@ Before starting, this is a setup example i'll be using to explain things. You do
 
 - ***Step7_Archive.bat***: Compress Step5/Step6 results into a .zip file.
 
-  - ***LogParsers/1-CompilationLogParse.txt***: Optional. For determining when a compilation will fail or be marked as unstable.
-  - ***LogParsers/2-TestLogParse.txt***: Mandatory. Will mark test as failed if "Test Failed" string is found in the log.
-  - ***LogParsers/3-PackageLogParse.txt***: Optional. For determining when a packaging will fail or be marked as unstable.
+- ***LogParsers/1-CompilationLogParse.txt***: Optional. For determining when a compilation will fail or be marked as unstable.
+- ***LogParsers/2-TestLogParse.txt***: Mandatory. Will mark test as failed if "Test Failed" string is found in the log.
+- ***LogParsers/3-PackageLogParse.txt***: Optional. For determining when a packaging will fail or be marked as unstable.
 > Compilation and Package seems to work fine without the need of a log parser. Log parsing is recommended tho as it highlights errors, warnings and relevant info.
 
 # Let's BeginPlay()
