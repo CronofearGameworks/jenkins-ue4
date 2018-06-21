@@ -99,7 +99,7 @@ I'm not going to explain everything here, only the parts that are specific for t
 - Install Java
 - Install Jenkins, in case Jenkins create a service "Jenkins" by default, go to services and disable it.
 - Modify ```RunJenkinsAsDesktopMode.bat``` - Not much needs to be modified if you installed everything in their default path. You may want to change the port Jenkins will use tho.
-- Open ```RunJenkinsAsDesktopMode.bat``` as admin and go to the ```ip:port``` using your web browser.
+- Open ```RunJenkinsAsDesktopMode.bat``` as admin, wait for Jenkins to install and go to your ```address:port``` location using your web browser.
 - Follow the steps to configure Jenkins (default installation should work.)
 - Install the Log Parser Plugin in Jenkins.
 - Go to Manage Jenkins>Configure System>Console Output Parsing and create 3 parsing rules (compilation log, test log and package log). Each log parser should point to the files from the ```/LogParser/``` folder from this repo. i.e. https://imgur.com/a/M3z4M3e - Keep in mind that only the Test log parser is mandatory.
