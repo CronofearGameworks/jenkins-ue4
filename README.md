@@ -15,6 +15,7 @@ Modified by [Kevin Yabar](https://cronofear.com) for [Cronofear Softworks](https
 
 # Considerations
 
+ - You don't need to do Step2 and Step3 if your project is Blueprints only.
  - How automated tests should look https://www.youtube.com/watch?v=ivLFP2eApto
  - How to make functional automated tests in UE4: https://www.youtube.com/watch?v=f4LpDXjFgVQ you can also use C++, but UE4 tests in C++ is awful (no hotreload support).
  - How to make better automated tests (high level scripting) in UE4: http://forum.skookumscript.com/t/about-automated-tests-using-sk/1510 This uses a plugin for using the SkookumScript programming language in UE4. This language is really good for gameplay programming too. Check why this tool is awesome here: http://error454.com/2017/03/09/death/tick
